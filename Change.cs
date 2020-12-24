@@ -7,6 +7,7 @@ namespace oneHundredTasks
     {
         private static readonly int[] CoinValues = {1, 5, 7, 10, 15};
         private static int[] _count = new int[5];
+
         public static void Calc(int change)
         {
             _count = new int[5];
@@ -26,7 +27,8 @@ namespace oneHundredTasks
 
         private static void Print()
         {
-            for (var i = 0; i < _count.Length; i++) Console.WriteLine(_count[i] + " монет по " + CoinValues[i] + " рублей.");
+            for (var i = 0; i < _count.Length; i++)
+                Console.WriteLine(_count[i] + " монет по " + CoinValues[i] + " рублей.");
             Console.WriteLine("Всего " + _count.ToArray().Sum() + " монет.");
         }
     }
