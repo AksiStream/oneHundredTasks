@@ -39,7 +39,7 @@ namespace oneHundredTasks.BossAttackOOP
             return DateTime.Now.Millisecond % number;
         }
 
-        private static void PrintMessage(string text, ConsoleColor color)
+        public static void PrintMessage(string text, ConsoleColor color)
         {
             var oldColor = Console.ForegroundColor;
             Console.ForegroundColor = color;

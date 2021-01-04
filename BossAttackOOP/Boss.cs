@@ -6,7 +6,7 @@ namespace oneHundredTasks.BossAttackOOP
     {
         private readonly Attack[] _attacks =
         {
-            new Attack("Удар ногой", "Босс ударяет ногой в прыжке и выносит тебе еблет", 500, ConsoleColor.Blue),
+            new Attack("Удар ногой", "Босс ударяет ногой с вертушки и выносит вам еблет", 500, ConsoleColor.Blue),
             new Attack("Удар руками", "Босс атаковал с немыслимой яростью своими руками", 100, ConsoleColor.DarkRed),
             new Attack("Звуковая атака", "Босс исполнил новый альбом Ольги бузовой", 140, ConsoleColor.DarkMagenta),
             new Attack("Психологическая атака",

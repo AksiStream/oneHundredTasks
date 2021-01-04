@@ -15,6 +15,11 @@
       </e>
       <e p="Change.cs" t="Include" />
       <e p="CharacterLeveling.cs" t="Include" />
+      <e p="CharacterLevelingOOP" t="Include">
+        <e p="Game.cs" t="Include" />
+        <e p="Player.cs" t="Include" />
+        <e p="Skill.cs" t="Include" />
+      </e>
       <e p="DoList.cs" t="Include" />
       <e p="MassiveEdit.cs" t="Include" />
       <e p="MassiveIterating.cs" t="Include" />
